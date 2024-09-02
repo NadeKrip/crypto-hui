@@ -1,0 +1,185 @@
+button{
+    outline: unset;
+    background: unset;
+    border: unset;
+    cursor: pointer;
+}
+.main-container{
+    width: 100%;
+    background: aquamarine;
+}
+.main-wrapper{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    width: 53px;
+    height: 100vh;
+    position: fixed;
+    background: #141320;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 53px;
+    background: #222535;
+    align-items: stretch;
+    color: #c7c1c7;
+}
+header{
+    background: #1d202b;
+    height: 65px;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+header .nav{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+header .nav .nav-item{
+    outline: unset;
+    background: unset;
+    border: unset;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #c7c1c7;
+    font-size: 16px;
+    cursor: pointer;
+}
+main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    padding-top: 20px;
+}
+.graphic-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #1d202a;
+    border-radius: 5px 5px 0 0;
+    height: 580px;
+}
+.graphic-header{
+    height: 33px;
+    background: #1d1e23;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.graphic-header .selects{
+    display: flex;
+    gap: 10px;
+}
+.graphic-select{
+    outline: unset;
+    border: unset;
+    background: unset;
+    color: #c7c1c7
+;
+}
+.graphic-graphic{
+    height: 100%;
+}
+.graphic-footer{
+    height: 40px;
+}
+footer{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    background: #1d202a;
+}
+#trading-vue-js{
+    width: 100% !important;
+}
+.table{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.table .table-header,
+.table .table-content{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #121625;
+}
+.table-content{
+    max-height: 280px;
+    overflow: auto;
+}
+.table-row{
+    display: flex;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #121625;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 25px;
+    justify-content: space-between;
+}
+.table-col{
+    font-size: 14px;
+}
+.table-header .table-col{
+    font-size: 15px;
+    font-weight: 700;
+}
+.table-col:nth-child(1){
+    width: 150px;
+}
+.table-col:nth-child(2){
+    width: 90px;
+}
+.table-col:nth-child(3){
+    width: 90px;
+}
+.table-col:nth-child(4){
+    width: 125px;
+}
+.table-col:nth-child(5){
+    width: 125px;
+}
+.table-col:nth-child(6){
+    width: 165px;
+}
+.table-col:nth-child(7){
+    width: 80px;
+}
+.table-col:nth-child(8){
+    width: 80px;
+}
+.table-col:nth-child(9){
+    width: 200px;
+}
+.table-col:nth-child(10){
+    width: 200px;
+}
+.table-col:nth-child(11){
+    width: 100px;
+}
+.table-col:nth-child(12){
+    width: 100px;
+}
+.table-col:nth-child(13){
+    width: auto;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+}
+.delete-ticket-btn{
+    color: white;
+    font-size: 15px;
+}
